@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80EE19D32B84FF96000560F8 /* ALDI_AssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19D22B84FF96000560F8 /* ALDI_AssignmentApp.swift */; };
+		80EE19D52B84FF96000560F8 /* CryptoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19D42B84FF96000560F8 /* CryptoListView.swift */; };
+		80EE19D72B84FF99000560F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE19D62B84FF99000560F8 /* Assets.xcassets */; };
+		80EE19DA2B84FF99000560F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE19D92B84FF99000560F8 /* Preview Assets.xcassets */; };
+		80EE19E42B84FF99000560F8 /* ALDI_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19E32B84FF99000560F8 /* ALDI_AssignmentTests.swift */; };
+		80EE19EE2B84FF99000560F8 /* ALDI_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19ED2B84FF99000560F8 /* ALDI_AssignmentUITests.swift */; };
+		80EE19F02B84FF99000560F8 /* ALDI_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19EF2B84FF99000560F8 /* ALDI_AssignmentUITestsLaunchTests.swift */; };
+		80EE1A032B850018000560F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19FC2B850018000560F8 /* Utils.swift */; };
+		80EE1A042B850018000560F8 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19FD2B850018000560F8 /* Crypto.swift */; };
+		80EE1A052B850018000560F8 /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE19FE2B850018000560F8 /* CryptoListViewModel.swift */; };
+		80EE1A072B850018000560F8 /* CryptoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A002B850018000560F8 /* CryptoDetailView.swift */; };
+		80EE1A082B850018000560F8 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A012B850018000560F8 /* NetworkService.swift */; };
+		80EE1A092B850018000560F8 /* CryptoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A022B850018000560F8 /* CryptoRowView.swift */; };
+		80EE1A0E2B8501C6000560F8 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1A0B2B8501C6000560F8 /* Poppins-Regular.ttf */; };
+		80EE1A102B8501C6000560F8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1A0D2B8501C6000560F8 /* Poppins-Bold.ttf */; };
+		80EE1A132B85046B000560F8 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1A122B85046B000560F8 /* Poppins-SemiBold.ttf */; };
+		80EE1A152B851CB3000560F8 /* CryptoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A142B851CB3000560F8 /* CryptoDetailViewModel.swift */; };
+		80EE1A172B851D8D000560F8 /* CryptoRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A162B851D8D000560F8 /* CryptoRowViewModel.swift */; };
+		80EE1A192B851DDD000560F8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE1A182B851DDD000560F8 /* NetworkManager.swift */; };
+		80EE1A212B85358C000560F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 80EE1A202B85358C000560F8 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80EE19E02B84FF99000560F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EE19C72B84FF96000560F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80EE19CE2B84FF96000560F8;
+			remoteInfo = "ALDI Assignment";
+		};
+		80EE19EA2B84FF99000560F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EE19C72B84FF96000560F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80EE19CE2B84FF96000560F8;
+			remoteInfo = "ALDI Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80EE19CF2B84FF96000560F8 /* ALDI Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALDI Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EE19D22B84FF96000560F8 /* ALDI_AssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDI_AssignmentApp.swift; sourceTree = "<group>"; };
+		80EE19D42B84FF96000560F8 /* CryptoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListView.swift; sourceTree = "<group>"; };
+		80EE19D62B84FF99000560F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80EE19D92B84FF99000560F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80EE19DF2B84FF99000560F8 /* ALDI AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALDI AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EE19E32B84FF99000560F8 /* ALDI_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDI_AssignmentTests.swift; sourceTree = "<group>"; };
+		80EE19E92B84FF99000560F8 /* ALDI AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALDI AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EE19ED2B84FF99000560F8 /* ALDI_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDI_AssignmentUITests.swift; sourceTree = "<group>"; };
+		80EE19EF2B84FF99000560F8 /* ALDI_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALDI_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80EE19FC2B850018000560F8 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		80EE19FD2B850018000560F8 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		80EE19FE2B850018000560F8 /* CryptoListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
+		80EE1A002B850018000560F8 /* CryptoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoDetailView.swift; sourceTree = "<group>"; };
+		80EE1A012B850018000560F8 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		80EE1A022B850018000560F8 /* CryptoRowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoRowView.swift; sourceTree = "<group>"; };
+		80EE1A0B2B8501C6000560F8 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		80EE1A0D2B8501C6000560F8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		80EE1A112B8501DC000560F8 /* ALDI-Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ALDI-Assignment-Info.plist"; sourceTree = SOURCE_ROOT; };
+		80EE1A122B85046B000560F8 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		80EE1A142B851CB3000560F8 /* CryptoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailViewModel.swift; sourceTree = "<group>"; };
+		80EE1A162B851D8D000560F8 /* CryptoRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoRowViewModel.swift; sourceTree = "<group>"; };
+		80EE1A182B851DDD000560F8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		80EE1A202B85358C000560F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80EE19CC2B84FF96000560F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19DC2B84FF99000560F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19E62B84FF99000560F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80EE19C62B84FF96000560F8 = {
+			isa = PBXGroup;
+			children = (
+				80EE19D12B84FF96000560F8 /* ALDI Assignment */,
+				80EE19E22B84FF99000560F8 /* ALDI AssignmentTests */,
+				80EE19EC2B84FF99000560F8 /* ALDI AssignmentUITests */,
+				80EE19D02B84FF96000560F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80EE19D02B84FF96000560F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19CF2B84FF96000560F8 /* ALDI Assignment.app */,
+				80EE19DF2B84FF99000560F8 /* ALDI AssignmentTests.xctest */,
+				80EE19E92B84FF99000560F8 /* ALDI AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80EE19D12B84FF96000560F8 /* ALDI Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				80EE1A112B8501DC000560F8 /* ALDI-Assignment-Info.plist */,
+				80EE19D22B84FF96000560F8 /* ALDI_AssignmentApp.swift */,
+				80EE1A202B85358C000560F8 /* README.md */,
+				80EE1A1A2B851EC6000560F8 /* CryptoList */,
+				80EE1A1D2B851F2A000560F8 /* CryptoDetail */,
+				80EE1A1E2B851F45000560F8 /* Data */,
+				80EE1A1F2B851F51000560F8 /* Network */,
+				80EE1A222B853C8D000560F8 /* Utils */,
+				80EE1A0D2B8501C6000560F8 /* Poppins-Bold.ttf */,
+				80EE1A0B2B8501C6000560F8 /* Poppins-Regular.ttf */,
+				80EE1A122B85046B000560F8 /* Poppins-SemiBold.ttf */,
+				80EE19D62B84FF99000560F8 /* Assets.xcassets */,
+				80EE19D82B84FF99000560F8 /* Preview Content */,
+			);
+			path = "ALDI Assignment";
+			sourceTree = "<group>";
+		};
+		80EE19D82B84FF99000560F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19D92B84FF99000560F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80EE19E22B84FF99000560F8 /* ALDI AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19E32B84FF99000560F8 /* ALDI_AssignmentTests.swift */,
+			);
+			path = "ALDI AssignmentTests";
+			sourceTree = "<group>";
+		};
+		80EE19EC2B84FF99000560F8 /* ALDI AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19ED2B84FF99000560F8 /* ALDI_AssignmentUITests.swift */,
+				80EE19EF2B84FF99000560F8 /* ALDI_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "ALDI AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		80EE1A1A2B851EC6000560F8 /* CryptoList */ = {
+			isa = PBXGroup;
+			children = (
+				80EE1A1B2B851EF1000560F8 /* List */,
+				80EE1A1C2B851F01000560F8 /* Row */,
+			);
+			path = CryptoList;
+			sourceTree = "<group>";
+		};
+		80EE1A1B2B851EF1000560F8 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19D42B84FF96000560F8 /* CryptoListView.swift */,
+				80EE19FE2B850018000560F8 /* CryptoListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		80EE1A1C2B851F01000560F8 /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				80EE1A022B850018000560F8 /* CryptoRowView.swift */,
+				80EE1A162B851D8D000560F8 /* CryptoRowViewModel.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		80EE1A1D2B851F2A000560F8 /* CryptoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				80EE1A002B850018000560F8 /* CryptoDetailView.swift */,
+				80EE1A142B851CB3000560F8 /* CryptoDetailViewModel.swift */,
+			);
+			path = CryptoDetail;
+			sourceTree = "<group>";
+		};
+		80EE1A1E2B851F45000560F8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19FD2B850018000560F8 /* Crypto.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		80EE1A1F2B851F51000560F8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				80EE1A012B850018000560F8 /* NetworkService.swift */,
+				80EE1A182B851DDD000560F8 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		80EE1A222B853C8D000560F8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				80EE19FC2B850018000560F8 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80EE19CE2B84FF96000560F8 /* ALDI Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EE19F32B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI Assignment" */;
+			buildPhases = (
+				80EE19CB2B84FF96000560F8 /* Sources */,
+				80EE19CC2B84FF96000560F8 /* Frameworks */,
+				80EE19CD2B84FF96000560F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALDI Assignment";
+			productName = "ALDI Assignment";
+			productReference = 80EE19CF2B84FF96000560F8 /* ALDI Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80EE19DE2B84FF99000560F8 /* ALDI AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EE19F62B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI AssignmentTests" */;
+			buildPhases = (
+				80EE19DB2B84FF99000560F8 /* Sources */,
+				80EE19DC2B84FF99000560F8 /* Frameworks */,
+				80EE19DD2B84FF99000560F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80EE19E12B84FF99000560F8 /* PBXTargetDependency */,
+			);
+			name = "ALDI AssignmentTests";
+			productName = "ALDI AssignmentTests";
+			productReference = 80EE19DF2B84FF99000560F8 /* ALDI AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80EE19E82B84FF99000560F8 /* ALDI AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EE19F92B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI AssignmentUITests" */;
+			buildPhases = (
+				80EE19E52B84FF99000560F8 /* Sources */,
+				80EE19E62B84FF99000560F8 /* Frameworks */,
+				80EE19E72B84FF99000560F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80EE19EB2B84FF99000560F8 /* PBXTargetDependency */,
+			);
+			name = "ALDI AssignmentUITests";
+			productName = "ALDI AssignmentUITests";
+			productReference = 80EE19E92B84FF99000560F8 /* ALDI AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80EE19C72B84FF96000560F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					80EE19CE2B84FF96000560F8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					80EE19DE2B84FF99000560F8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 80EE19CE2B84FF96000560F8;
+					};
+					80EE19E82B84FF99000560F8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 80EE19CE2B84FF96000560F8;
+					};
+				};
+			};
+			buildConfigurationList = 80EE19CA2B84FF96000560F8 /* Build configuration list for PBXProject "ALDI Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80EE19C62B84FF96000560F8;
+			productRefGroup = 80EE19D02B84FF96000560F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80EE19CE2B84FF96000560F8 /* ALDI Assignment */,
+				80EE19DE2B84FF99000560F8 /* ALDI AssignmentTests */,
+				80EE19E82B84FF99000560F8 /* ALDI AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80EE19CD2B84FF96000560F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE1A0E2B8501C6000560F8 /* Poppins-Regular.ttf in Resources */,
+				80EE1A102B8501C6000560F8 /* Poppins-Bold.ttf in Resources */,
+				80EE1A212B85358C000560F8 /* README.md in Resources */,
+				80EE1A132B85046B000560F8 /* Poppins-SemiBold.ttf in Resources */,
+				80EE19DA2B84FF99000560F8 /* Preview Assets.xcassets in Resources */,
+				80EE19D72B84FF99000560F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19DD2B84FF99000560F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19E72B84FF99000560F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80EE19CB2B84FF96000560F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE1A172B851D8D000560F8 /* CryptoRowViewModel.swift in Sources */,
+				80EE1A072B850018000560F8 /* CryptoDetailView.swift in Sources */,
+				80EE1A052B850018000560F8 /* CryptoListViewModel.swift in Sources */,
+				80EE1A152B851CB3000560F8 /* CryptoDetailViewModel.swift in Sources */,
+				80EE1A192B851DDD000560F8 /* NetworkManager.swift in Sources */,
+				80EE1A092B850018000560F8 /* CryptoRowView.swift in Sources */,
+				80EE1A042B850018000560F8 /* Crypto.swift in Sources */,
+				80EE19D52B84FF96000560F8 /* CryptoListView.swift in Sources */,
+				80EE19D32B84FF96000560F8 /* ALDI_AssignmentApp.swift in Sources */,
+				80EE1A032B850018000560F8 /* Utils.swift in Sources */,
+				80EE1A082B850018000560F8 /* NetworkService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19DB2B84FF99000560F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE19E42B84FF99000560F8 /* ALDI_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE19E52B84FF99000560F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE19EE2B84FF99000560F8 /* ALDI_AssignmentUITests.swift in Sources */,
+				80EE19F02B84FF99000560F8 /* ALDI_AssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80EE19E12B84FF99000560F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80EE19CE2B84FF96000560F8 /* ALDI Assignment */;
+			targetProxy = 80EE19E02B84FF99000560F8 /* PBXContainerItemProxy */;
+		};
+		80EE19EB2B84FF99000560F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80EE19CE2B84FF96000560F8 /* ALDI Assignment */;
+			targetProxy = 80EE19EA2B84FF99000560F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80EE19F12B84FF99000560F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80EE19F22B84FF99000560F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80EE19F42B84FF99000560F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALDI Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ALDI-Assignment-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80EE19F52B84FF99000560F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALDI Assignment/Preview Content\"";
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ALDI-Assignment-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80EE19F72B84FF99000560F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALDI Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALDI Assignment";
+			};
+			name = Debug;
+		};
+		80EE19F82B84FF99000560F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALDI Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALDI Assignment";
+			};
+			name = Release;
+		};
+		80EE19FA2B84FF99000560F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALDI Assignment";
+			};
+			name = Debug;
+		};
+		80EE19FB2B84FF99000560F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7X2939C5N3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.personal.ALDI-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALDI Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80EE19CA2B84FF96000560F8 /* Build configuration list for PBXProject "ALDI Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE19F12B84FF99000560F8 /* Debug */,
+				80EE19F22B84FF99000560F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EE19F32B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE19F42B84FF99000560F8 /* Debug */,
+				80EE19F52B84FF99000560F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EE19F62B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE19F72B84FF99000560F8 /* Debug */,
+				80EE19F82B84FF99000560F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EE19F92B84FF99000560F8 /* Build configuration list for PBXNativeTarget "ALDI AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE19FA2B84FF99000560F8 /* Debug */,
+				80EE19FB2B84FF99000560F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80EE19C72B84FF96000560F8 /* Project object */;
+}
